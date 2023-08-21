@@ -12,19 +12,31 @@
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 
-<body>
-  <main class="">
-    <h1 class="">Equilibrium #3429</h1>
+<body class="font-ff-primary text-[15px] text-soft-blue bg-bg-primary grid h-screen place-items-center">
+  <main class="w-[17.5rem] h-[29.8rem] bg-bg-card rounded-xl p-5 flex flex-col gap-[13px]">
+    <img src="./images/image-equilibrium.jpg" alt="equilibrium" class="rounded-md">
+    <a href="#">
+      <h1 class="text-lg text-white font-semibold hover:text-cyan">Equilibrium #3429</h1>
+    </a>
 
     <p class="">Our Equilibrium collection promotes balance and calm.</p>
 
-    <p>
-      <span>0.041 ETH</span> 3 days left
-    </p>
-<hr>
-    <div class="">
-      <img src="" alt="">
-      <p class="">Creation of <span class="">Jules Wyvern</span></p>
+    <div class="flex items-center text-sm">
+      <div class="flex items-center text-cyan gap-1">
+        <img src="./images/icon-ethereum.svg" alt="etherium icon" class="h-4 hover:">
+        <span>0.041ETH</span>
+      </div>
+      <div class="flex items-center ml-auto text-sm gap-1">
+        <img src="./images/icon-clock.svg" alt="clock icon" class="h-[14px]">
+        <span class="whitespace-nowrap">3 days left</span>
+      </div>
+    </div>
+
+    <hr class="text-very-dark-blue mt-2">
+
+    <div class="flex gap-4 items-center text-sm">
+      <img src="./images/image-avatar.png" alt="" class="h-6 outline outline-1 outline-white rounded-full">
+      <p class="">Creation of <a href="#" class="text-white font-medium hover:text-cyan">Jules Wyvern</a></p>
     </div>
   </main>
 
