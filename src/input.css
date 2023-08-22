@@ -3,7 +3,9 @@
 @tailwind components;
 
 
-
+.image:hover .view {
+  opacity: 1;
+}
 
 
 
